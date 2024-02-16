@@ -1,3 +1,7 @@
+//Given two crystal balls that will break if dropped from high enough
+//distance, determine the exact spot in which it will break in the most optimized way
+//Resio sam problem na dva nacina
+
 function two(breaks) {
   const jmpAmount = Math.floor(Math.sqrt(breaks.length));
   let i = jmpAmount;
